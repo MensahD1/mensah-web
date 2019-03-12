@@ -155,8 +155,10 @@ transform: scale(1.25);
 .col-sm-2{
   text-align: center;
   padding: 3%;
-
-
+  transition: transform 1s;
+}
+.col-sm-2:hover{
+  transform: scale(1.2);
 }
 .col-sm-12{
   text-align: center;
@@ -170,17 +172,7 @@ transform: scale(1.25);
   margin-left: 20%;
 
 }
-#popUp{
-  position: fixed;
-  display: none;
-  width: 50%;
-  height: 400px;
-  background-color: red;
-  left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-z-index: 100;
-}
+
 .projHeader{
   color: white;
   font-size: 30px;
